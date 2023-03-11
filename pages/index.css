@@ -153,4 +153,9 @@
 }
 .recipes__player {
   display: block;
+  justify-content: space-between;
+}
+.recipes__iframe {
+  display: flex;
+  justify-content: space-between;
 }
