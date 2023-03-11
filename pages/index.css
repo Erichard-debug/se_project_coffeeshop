@@ -116,10 +116,9 @@
   background-size: cover;
   background-color: #0a2750;
   padding-top: 100px;
-}
-.recipes__content {
   color: #fff;
 }
+
 .recipes__title {
   font-family: "Inter";
   font-style: normal;
