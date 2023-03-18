@@ -15,9 +15,11 @@
 }
 
 .header__title {
-  font-weight: 500px;
+  margin: 0;
+  max-width: 729px;
   font-size: 60px;
   line-height: 72px;
+  padding: 0;
 }
 .header__span-accent {
   font-family: "Noto Serif", "Times New Roman", Times, serif;
@@ -31,6 +33,7 @@
   margin-top: 0;
   max-width: 683px;
   margin-bottom: 0;
+  margin-top: 28px;
 }
 .header__image {
   height: 568px;
@@ -38,7 +41,7 @@
   top: 124px;
   right: 5px;
   z-index: 1;
-  max-width: 636px;
+  width: 646px;
 }
 .header__footer {
   position: absolute;
@@ -52,20 +55,16 @@
   box-sizing: border-box;
 }
 .header__paragraph {
-  margin: 0;
   color: #838383;
   z-index: 2;
+  margin: 0 0 20px;
+  font-size: 16px;
+  font-weight: normal;
+  margin-bottom: 0;
 }
 
 .header__hours {
   flex-wrap: wrap;
   display: block;
   justify-content: space-between;
-}
-
-.header__hours-title {
-  margin: 0 0 20px;
-  font-size: 16px;
-  font-weight: normal;
-  margin-bottom: 0;
 }
