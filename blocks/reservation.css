@@ -16,10 +16,10 @@
   display: flex;
   justify-content: center;
   margin-bottom: 80px;
+  margin-top: 0;
 }
 .reservation__form {
   height: 100%;
-  display: block;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
+  max-width: 385px;
 }
