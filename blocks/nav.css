@@ -11,7 +11,7 @@
   column-gap: 20px;
   list-style-type: none;
   padding: 0;
-  font-family: "Inter","Arial", sans-serif
+  font-family: "Inter", "Arial", sans-serif;
   font-weight: 500;
 }
 .nav__link {
